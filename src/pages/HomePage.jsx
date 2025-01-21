@@ -1,7 +1,9 @@
 import { Search } from "lucide-react";
 import RecipeCard from "../components/RecipeCard";
+import RecipeDetails from "../components/RecipeDetails";
 import { useEffect, useState } from "react";
 import { getRandomColor } from "../lib/utils";
+
 
 const APP_ID = import.meta.env.VITE_APP_ID;
 const APP_KEY = import.meta.env.VITE_APP_KEY;
